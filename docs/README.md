@@ -16,7 +16,7 @@ This project solves that by:
 
 ## Key Features
 
-* **Zero-Storage Secret Management:** Session keys are dynamically derived via `R \oplus \text{Nonce}` and discarded after use.
+* **Zero-Storage Secret Management:** Session keys are dynamically derived via `Nonce` and discarded after use.
 * **Hardware-Tested Implementation:** Fully operational on two ESP32 microcontrollers communicating wirelessly via ESP-NOW.
 * **Bit-Exact Python Reference:** Includes host scripts for verification, testing, and comparative analysis against theoretical standards.
 * **High Security Metrics:** Achieves near-ideal cryptographic performance (Entropy $\approx 7.99/8.0$, strong NPCR/UACI test results, and minimal adjacent-pixel correlation).
